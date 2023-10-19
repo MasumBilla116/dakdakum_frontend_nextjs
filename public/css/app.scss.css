@@ -1,0 +1,321 @@
+.body {
+  scroll-behavior: smooth;
+}
+
+.c-h-294 {
+  height: 294px;
+}
+
+.c-h-254 {
+  height: 254px;
+}
+
+.cat-h-135 {
+  height: 135px;
+}
+
+.pro-h-240 {
+  height: 240px;
+}
+
+.c-mxw-60per {
+  max-width: 60%;
+}
+
+.c-bg-img {
+  background-image: url("../images/banner/header-bg.jpg");
+}
+
+.scroll-thin {
+  scrollbar-width: thin;
+}
+
+.scroll-none {
+  scrollbar-width: none;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+.pro-bg-white-gray {
+  background-color: #F6F8FC;
+}
+
+.text-warning {
+  color: #fb910ac7;
+}
+
+
+.pro-ovrly-icon {
+  width: 80%;
+  height: 80%;
+  padding: 3px 4px;
+  text-align: center;
+}
+
+.pro-ovrly-icon-tooltip {
+  display: none;
+}
+
+.pro-ovrly-icon:hover .pro-ovrly-icon-tooltip {
+  display: block;
+  z-index: 10;
+  width: auto;
+  left: -82px;
+  padding: .2rem;
+  border-radius: 4px;
+  font-size: inherit;
+  top: 0px;
+  -webkit-box-shadow: 0 0 5px #0000001f;
+          box-shadow: 0 0 5px #0000001f;
+}
+
+.pro-ovrly-icon-tooltip::after {
+  content: "";
+  position: absolute;
+  right: -14px;
+  bottom: 3.6px;
+  border: 7px solid #f7f7f7;
+  border-color: transparent transparent transparent #fff;
+}
+
+.pro-con:hover .pro-overlay-b {
+  bottom: -23px;
+}
+
+.pro-con:hover .pro-overlay-r {
+  right: 0;
+}
+
+.c-text-shadow {
+  text-shadow: 1px 1px 2px #fffdfd,1px 1px 2px #000;
+}
+
+.bg-transparent-black {
+  background-color: #0b0a0a57;
+}
+
+.bg-transparent-black-hover {
+  background-color: #0b0a0a57;
+}
+
+.bg-transparent-black-hover:hover {
+  background-color: #0b0a0a7a;
+}
+
+.v-p-h {
+  height: 17.7rem;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-orange-red {
+  color: #ff6e04;
+}
+
+.bg-black-blue {
+  background-color: #052348c4;
+}
+
+.w-95 {
+  width: 90%;
+}
+
+.text-shadow-1 {
+  text-shadow: 0 1px 1px #000;
+}
+
+.hover-shadow-lg:hover {
+  -webkit-box-shadow: 0 0 .5rem #00000080;
+          box-shadow: 0 0 .5rem #00000080;
+  z-index: 10;
+}
+
+.bg-dark-green {
+  background-color: #3fa631db;
+}
+
+.bg-dark-pink {
+  background-color: #b900a5;
+  border-bottom-color: #770059;
+}
+
+.bg-light-green {
+  background-color: #02e602;
+}
+
+.logo {
+  color: #fded01;
+  letter-spacing: 0.1rem;
+}
+
+.bg-seagreen {
+  background-color: seagreen;
+}
+
+.hover\:scroll-show:hover {
+  scrollbar-width: thin;
+}
+
+.\-left-100 {
+  left: -100%;
+}
+
+.\-right-100 {
+  right: -100%;
+}
+
+.\top-100 {
+  top: -100%;
+}
+
+.\bottom-100 {
+  bottom: -100%;
+}
+
+.shadow-r-lg {
+  -webkit-box-shadow: .5rem 0 1rem #0000005c;
+          box-shadow: .5rem 0 1rem #0000005c;
+}
+
+.menu-toggle {
+  position: relative;
+}
+
+.menu {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  position: absolute;
+  top: 100%;
+  z-index: 30;
+  -webkit-box-shadow: 0 0 .5rem #0000005c;
+          box-shadow: 0 0 .5rem #0000005c;
+  -webkit-transform: translate(-25%, 10%);
+          transform: translate(-25%, 10%);
+  background-color: white;
+  border-radius: 5px;
+  padding: .5rem;
+  display: none;
+  cursor: auto;
+}
+
+.modal, .link-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000b3;
+  z-index: 50;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
+  display: none;
+}
+
+.modal-body {
+  width: 70%;
+  padding: .5rem;
+  margin: auto;
+}
+
+.modal-toggle {
+  position: absolute;
+  top: 0;
+  right: 5%;
+}
+
+.active {
+  display: block;
+}
+
+.modal-dialog {
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  border: .1rem solid gray;
+  border-radius: .3rem;
+  position: relative;
+}
+
+.modal-content {
+  width: 50%;
+  margin: 0 auto;
+  padding: .3rem;
+}
+
+.modal-footer {
+  margin: 0 auto;
+  padding: .3rem;
+}
+
+.collapse-toggle {
+  display: none;
+}
+
+/*border toggler color*/
+.border-color-1 {
+  border-color: #e60e0e;
+}
+
+.border-color-2 {
+  border-color: #f7a305;
+}
+
+.border-color-3 {
+  border-color: #c2f705;
+}
+
+.border-color-4 {
+  border-color: #51ff02;
+}
+
+.border-color-5 {
+  border-color: #02ff88;
+}
+
+.border-color-6 {
+  border-color: #02ffff;
+}
+
+.border-color-7 {
+  border-color: #0288ff;
+}
+
+.border-color-8 {
+  border-color: #0a02ff;
+}
+
+.border-color-9 {
+  border-color: #eb02ff;
+}
+
+.border-color-10 {
+  border-color: #ff029c;
+}
+
+/*
+|--------------------------
+|	table css
+|--------------------------
+*/
+.table th, .table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+/*
+|--------------------------------
+|	auto scrolling 
+|--------------------------------
+*/
+
+/*# sourceMappingURL=app.scss.css.map */

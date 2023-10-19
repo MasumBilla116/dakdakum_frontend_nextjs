@@ -1,0 +1,48 @@
+/*
+|---------------------------------------------
+|		@Author Md. Masum billa
+|---------------------------------------------
+| Rules::
+|--------
+| # First zoom-con class add the img container
+| div or any tag.
+|---------------------------------------------
+| #Second append a div class width lens class
+| into the zoom-con class tage.
+|----------------------------------------------
+| Example ::
+|--------------------------------
+|	<div class="zoom-con">
+|		<img alt src=""/>
+|		<div class="lens"></div>
+|	</div>
+|---------------------------------
+|	# Final step::
+|-----------------
+|	Add zoom.js file
+|----------------------------------------------
+*/
+
+
+.zoom-con{
+	cursor: none;
+	position: relative;
+}
+.lens {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40%;
+	height: 33%;
+	border-radius: 50%;
+	border: 1px solid #80808045;
+	padding: .5rem;
+	overflow: hidden;
+	transform: translate(-50%,-50%);
+	pointer-events: none;
+	box-sizing: border-box;
+	display: none;
+}
+.zoom-con:hover .lens{
+	display: block;
+}
